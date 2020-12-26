@@ -29,7 +29,7 @@ app.on('will-finish-launching', function () {
 });
 
 let isQuitting = false;
-let theme = "light";
+let theme = "dark";
 
 app.on('before-quit', function () {
     // We need this to differentiate between pressing quit (which should quit) or closing all windows

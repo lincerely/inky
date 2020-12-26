@@ -9,7 +9,7 @@ const inkSnippets = require("./inkSnippets.js").snippets;
 
 function setupMenus(callbacks) {
     let themes = [];
-    const defaultTheme = 'light';
+    const defaultTheme = 'dark';
     for (const theme of ['light', 'dark']) {
         themes.push({
             label: theme.substring(0, 1).toUpperCase() + theme.substring(1),
